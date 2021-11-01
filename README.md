@@ -4,7 +4,7 @@ A análise foi dividida em 4 partes principais:
 
  1. [Coleta e Pré-processamento dos Dados](#clipboard-1ª-etapa-coleta-e-pré-processamento-dos-dados)
  2. [Análise Exploratória dos Dados](#mag-2ª-etapa-análise-exploratória-dos-dados)
- 3. [Aplicação de Machine Learning](#book-3ª-etapa-aplicação-de-machine-learning)
+ 3. [Aplicação de Machine Learning](#blue_book-3ª-etapa-aplicação-de-machine-learning)
  4. [Deploy de Resultados](#bar_chart-4ª-etapa-deploy-de-resultados)
 
 ## :clipboard: 1ª Etapa: Coleta e Pré-processamento dos Dados
@@ -35,7 +35,7 @@ Roadmap:
 
  - Realizar Testes de Nemenyi quando conveniente;
 
-## :book: 3ª Etapa: Aplicação de Machine Learning
+## :blue_book: 3ª Etapa: Aplicação de Machine Learning
 
 Em construção: a implementar.
 
