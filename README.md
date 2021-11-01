@@ -2,10 +2,10 @@
 
 A análise foi dividida em 4 partes principais:
 
- [1. Coleta e Pré-processamento dos Dados](#1ª-etapa:-coleta-e-pré-processamento-dos-dados)
- [2. Análise Exploratória dos Dados](#2ª-etapa:-análise-exploratória-dos-dados)
- [3. Aplicação de Machine Learning](#3ª-etapa:-aplicação-de-machine-learning)
- [4. Deploy de Resultados](#4ª-etapa:-deploy-de-resultados)
+ 1. [Coleta e Pré-processamento dos Dados](#1ª-etapa:-coleta-e-pré-processamento-dos-dados)
+ 2. [Análise Exploratória dos Dados](#2ª-etapa:-análise-exploratória-dos-dados)
+ 3. [Aplicação de Machine Learning](#3ª-etapa:-aplicação-de-machine-learning)
+ 4. [Deploy de Resultados](#4ª-etapa:-deploy-de-resultados)
 
 ## 1ª Etapa: Coleta e Pré-processamento dos Dados
 
