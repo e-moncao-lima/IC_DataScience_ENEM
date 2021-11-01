@@ -7,7 +7,7 @@ A análise foi dividida em 4 partes principais:
  3. [Aplicação de Machine Learning](#3ª-etapa-aplicação-de-machine-learning)
  4. [Deploy de Resultados](#4ª-etapa-deploy-de-resultados)
 
-## 1ª Etapa: Coleta e Pré-processamento dos Dados
+## :pencil: 1ª Etapa: Coleta e Pré-processamento dos Dados
 
 A base de dados utilizada é fornecida pelo Inep [aqui](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem "Página do Inep contendo as bases de dados utiliizadas"). Foram escolhidos os bancos correspondentes aos anos de 2017, 2018 e 2019, totalizando, aproximadamente, 16 milhões de linhas (inscritos).
 
@@ -19,7 +19,7 @@ Já na segunda parte, adiantou-se um processamento dos dados visando sua utiliza
 
 Nesta etapa, utilizou-se a biblioteca _Dask_ para a manipulação dos arquivos, devido a familiaridade com _Pandas_ e a necessidade de lidar com arquivos de tamanho considerável.
 
-## 2ª Etapa: Análise Exploratória dos Dados
+## :mag: 2ª Etapa: Análise Exploratória dos Dados
 
 Da mesma forma que a seção anterior, esta foi dividida em duas partes, mas que foram majoritariamente realizadas e apresentadas concomitantemente.
 
@@ -35,7 +35,7 @@ Roadmap:
 
  - Realizar Testes de Nemenyi quando conveniente;
 
-## 3ª Etapa: Aplicação de Machine Learning
+## :books: 3ª Etapa: Aplicação de Machine Learning
 
 Em construção: a implementar.
 
@@ -48,7 +48,7 @@ Roadmap:
  - Verificação de possível predição enviesada;
  - Validação acerca de _overfitting_ devido a um grande número de colunas ou até de _underfitting_ devido à quantidade de linhas e/ou não  correlação das variáveis.
 
-## 4ª Etapa: Deploy de Resultados
+## :bar_chart: 4ª Etapa: Deploy de Resultados
 
 Em construção: não implementado.
 
