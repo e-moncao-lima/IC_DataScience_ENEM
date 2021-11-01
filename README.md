@@ -2,12 +2,14 @@
 
 A análise foi dividida em 4 partes principais:
 
- 1. Coleta e Pré-processamento dos Dados
- 2. Análise Exploratória dos Dados
- 3. Aplicação de Machine Learning
- 4. Deploy de Resultados
+ [1. Coleta e Pré-processamento dos Dados](#1ª-etapa:-coleta-e-pré-processamento-dos-dados)
+ [2. Análise Exploratória dos Dados](#2ª-etapa:-análise-exploratória-dos-dados)
+ [3. Aplicação de Machine Learning](#3ª-etapa:-aplicação-de-machine-learning)
+ [4. Deploy de Resultados](#4ª-etapa:-deploy-de-resultados)
 
 ## 1ª Etapa: Coleta e Pré-processamento dos Dados
+
+A base de dados utilizada é fornecida pelo Inep [aqui](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem "Página do Inep contendo as bases de dados utiliizadas"). Foram escolhidos os bancos correspondentes aos anos de 2017, 2018 e 2019, totalizando, aproximadamente, 16 milhões de linhas (inscritos).
 
 Os dados compactados obtidos do Inep estão armazenados no Google Drive e são descompactados por meio de código para uma pasta temporária chamada "DADOS". O arquivo _csv_ será convertido para _parquet_ a fim de ocupar menos espaço e melhorar o desempenho do processo.
 
