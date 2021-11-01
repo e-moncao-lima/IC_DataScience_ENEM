@@ -9,7 +9,7 @@ A análise foi dividida em 4 partes principais:
 
 ## 1ª Etapa: Coleta e Pré-processamento dos Dados
 
-A base de dados utilizada é fornecida pelo Inep [aqui](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem "Página do Inep contendo as bases de dados utiliizadas"). Foram escolhidos os bancos correspondentes aos anos de 2017, 2018 e 2019, totalizando, aproximadamente, 16 milhões de linhas (inscritos).
+A base de dados utilizada é fornecida pelo Inep [aqui](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem "Página do Inep contendo as bases de dados utiliizadas"){:target="_blank"}. Foram escolhidos os bancos correspondentes aos anos de 2017, 2018 e 2019, totalizando, aproximadamente, 16 milhões de linhas (inscritos).
 
 Os dados compactados obtidos do Inep estão armazenados no Google Drive e são descompactados por meio de código para uma pasta temporária chamada "DADOS". O arquivo _csv_ será convertido para _parquet_ a fim de ocupar menos espaço e melhorar o desempenho do processo.
 
